@@ -1,0 +1,67 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-indent: 100px;
+   text-shadow: -10px -10px 10px red;
+    /* word-spacing: 20px;
+    letter-spacing: 5px; */
+    /* line-height: 5rem; */
+    /* text-align: justify;
+    
+    
+    text-decoration: line-through rgb(125, 39, 39); */
+   
+}
+p{
+    text-align: center;
+}
+a:link{
+    text-decoration: none;
+    /* font-size: 40px; */
+   background-color: red;
+
+   /* display: block; */
+   text-align: center;
+
+}
+a:hover{
+    background-color: yellow;
+   color: red;
+   /* font-size: 100px;  */
+  
+}
+a:active{
+    background-color: green;
+}
+
+h2{
+    text-align: right;
+}
+input{
+    background-color: white;
+    
+}
+input:hover{
+    background-color: aquamarine;
+}
+input:focus{
+    background-color: blue;
+}
+input:active{
+    background-color: pink;
+}
+button:focus{
+    background-color: rgb(234, 127, 255);
+    color: red;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+button:hover{
+    background-color: aquamarine;
+    color: red;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
